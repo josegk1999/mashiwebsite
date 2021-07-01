@@ -34,8 +34,8 @@ hr{
 }
 
 .mashilogo{
-  width: 210px;
-  height: 210px;
+  width: 13.125%;
+  height: 13.125%;
 }
 
 .outerview{
@@ -70,7 +70,7 @@ hr{
 
 .two{
   font-family: 'Amatic SC', serif;
-  font-size: 30px;
+  font-size: 187.5%;
   color: #66BFBF;
   position: relative;
   bottom: 110px;
