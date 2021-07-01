@@ -1,0 +1,77 @@
+body{
+  background-color: #E4EFE7;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 562.5%;
+  color: #66BFBF;
+  position: relative;
+  bottom: 40px;
+}
+
+hr{
+  color: black;
+  border-style: dashed none none;
+  border-width: 4px;
+  width: 10%;
+  position: relative;
+  bottom: 120px;
+}
+
+.cloud1{
+  position: absolute;
+  right: 280px;
+}
+
+.cloud2{
+  position: absolute;
+  left: 280px;
+  top: 220px
+}
+
+.mashilogo{
+  width: 210px;
+  height: 210px;
+}
+
+.outerview{
+  width: 450px;
+  height: 250px;
+}
+
+.top-container{
+  padding-top: 100px;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 120px;
+}
+
+.middle-container{
+  background-color: #F0D9E7;
+  text-align: center;
+}
+
+.bottom-container{
+  background-color: #F2EDD7;
+  text-align:center;
+}
+
+.commenthead{
+  font-family: 'Amatic SC', serif;
+  font-size: 187.5%;
+  color: #66BFBF;
+  position: relative;
+  bottom: 80px;
+}
+
+.two{
+  font-family: 'Amatic SC', serif;
+  font-size: 30px;
+  color: #66BFBF;
+  position: relative;
+  bottom: 110px;
+}
