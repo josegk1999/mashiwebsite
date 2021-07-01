@@ -14,7 +14,7 @@ h1{
 }
 
 hr{
-  color: black;
+  background-color: #66BFBF;
   border-style: dashed none none;
   border-width: 4px;
   width: 10%;
@@ -24,13 +24,13 @@ hr{
 
 .cloud1{
   position: absolute;
-  right: 280px;
+  right: 17.5%;
 }
 
 .cloud2{
   position: absolute;
-  left: 280px;
-  top: 220px
+  left: 17.5%;
+  top: 27.75%;
 }
 
 .mashilogo{
