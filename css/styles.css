@@ -24,18 +24,22 @@ hr{
 
 .cloud1{
   position: absolute;
-  right: 280px;
+  left: 60px;
+  width: 135px;
+  height: 60px;
 }
 
 .cloud2{
   position: absolute;
-  left: 280px;
-  top: 220px;
+  top: 90px;
+  right: 60px;
+  width: 135px;
+  height: 60px;
 }
 
 .mashilogo{
-  width: 13.125%;
-  height: 13.125%;
+  width: 210px;
+  height: 210px;
 }
 
 .outerview{
@@ -48,6 +52,12 @@ hr{
   text-align: center;
   background-color: black;
   padding-bottom: 120px;
+}
+
+.Heading-box{
+  position: relative;
+  width: 1000px;
+  margin: auto;
 }
 
 .middle-container{
