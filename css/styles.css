@@ -1,5 +1,5 @@
 body{
-  background-color: #E4EFE7;
+  background-color: #66BFBF;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -13,7 +13,7 @@ h1{
   bottom: 40px;
 }
 
-hr{
+.smalldash{
   background-color: #66BFBF;
   border-style: dashed none none;
   border-width: 4px;
@@ -22,30 +22,6 @@ hr{
   bottom: 120px;
 }
 
-.cloud1{
-  position: absolute;
-  left: 60px;
-  width: 135px;
-  height: 60px;
-}
-
-.cloud2{
-  position: absolute;
-  top: 90px;
-  right: 60px;
-  width: 135px;
-  height: 60px;
-}
-
-.mashilogo{
-  width: 210px;
-  height: 210px;
-}
-
-.outerview{
-  width: 450px;
-  height: 250px;
-}
 
 .top-container{
   padding-top: 100px;
@@ -60,16 +36,6 @@ hr{
   margin: auto;
 }
 
-.middle-container{
-  background-color: #F0D9E7;
-  text-align: center;
-}
-
-.bottom-container{
-  background-color: #F2EDD7;
-  text-align:center;
-}
-
 .commenthead{
   font-family: 'Amatic SC', serif;
   font-size: 187.5%;
@@ -78,10 +44,95 @@ hr{
   bottom: 80px;
 }
 
+.cloud1{
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  width: 135px;
+  height: 60px;
+}
+
+.cloud2{
+  position: absolute;
+  right: 70px;
+  top: 30px;
+  width: 135px;
+  height: 60px;
+}
+
+.mashilogo{
+  width: 210px;
+  height: 210px;
+}
+
 .two{
   font-family: 'Amatic SC', serif;
   font-size: 187.5%;
   color: #66BFBF;
   position: relative;
   bottom: 110px;
+}
+
+.middle-container{
+  background-color: #66BFBF;
+  text-align: center;
+}
+
+.skill-row{
+  position: relative;
+  width: 1000px;
+  margin: 100px auto 300px auto;
+  text-align: left;
+}
+
+.skillimg{
+  width: 40%;
+  float: right;
+  margin-left: 10px;
+}
+
+.skillimg2{
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container{
+  background-color: #F2EDD7;
+  text-align:center;
+}
+
+.btn{
+  background: white;
+  background-image: -webkit-linear-gradient(top, black, black);
+  background-image: -moz-linear-gradient(top, black, black);
+  background-image: -ms-linear-gradient(top, black, black);
+  background-image: -o-linear-gradient(top, black, black);
+  background-image: -webkit-gradient(to bottom, black, black);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 30px;
+  color: #66BFBF;
+  font-family: Brush Script MT;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 1px 1px 20px 0 lightblue;
+  -moz-box-shadow: 1px 1px 20px 0 lightblue;
+  box-shadow: 1px 1px 20px 0 lightblue;
+  text-shadow: 1px 1px 20px black;
+  border: solid lightblue 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dotted{
+  position: relative;
+  bottom: 10px;
+  border-style: dotted none none;
+  border-width: 5px;
+  color: pink;
 }
