@@ -1,5 +1,5 @@
 body{
-  background-color: #66BFBF;
+  background-color: #A19882;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -8,13 +8,13 @@ body{
 h1{
   font-family: 'Dancing Script', cursive;
   font-size: 562.5%;
-  color: #66BFBF;
+  color: #5D534A;
   position: relative;
   bottom: 40px;
 }
 
 .smalldash{
-  background-color: #66BFBF;
+  background-color: #A19882;
   border-style: dashed none none;
   border-width: 4px;
   width: 10%;
@@ -26,7 +26,7 @@ h1{
 .top-container{
   padding-top: 100px;
   text-align: center;
-  background-color: black;
+  background-color: #E6DDC6;
   padding-bottom: 120px;
 }
 
@@ -36,13 +36,7 @@ h1{
   margin: auto;
 }
 
-.commenthead{
-  font-family: 'Amatic SC', serif;
-  font-size: 187.5%;
-  color: #66BFBF;
-  position: relative;
-  bottom: 80px;
-}
+
 
 .cloud1{
   background-color: transparent;
@@ -65,16 +59,24 @@ h1{
   height: 210px;
 }
 
+.commenthead{
+  font-family: 'Amatic SC', serif;
+  font-size: 187.5%;
+  color: #865439;
+  position: relative;
+  bottom: 80px;
+}
+
 .two{
   font-family: 'Amatic SC', serif;
   font-size: 187.5%;
-  color: #66BFBF;
+  color: #865439;
   position: relative;
   bottom: 110px;
 }
 
 .middle-container{
-  background-color: #66BFBF;
+  background-color: #A19882;
   text-align: center;
 }
 
@@ -102,37 +104,93 @@ h1{
   text-align:center;
 }
 
-.btn{
-  background: white;
-  background-image: -webkit-linear-gradient(top, black, black);
-  background-image: -moz-linear-gradient(top, black, black);
-  background-image: -ms-linear-gradient(top, black, black);
-  background-image: -o-linear-gradient(top, black, black);
-  background-image: -webkit-gradient(to bottom, black, black);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 30px;
-  color: #66BFBF;
-  font-family: Brush Script MT;
-  font-size: 18px;
-  font-weight: 100;
-  padding: 20px;
-  margin: 20px;
-  -webkit-box-shadow: 1px 1px 20px 0 lightblue;
-  -moz-box-shadow: 1px 1px 20px 0 lightblue;
-  box-shadow: 1px 1px 20px 0 lightblue;
-  text-shadow: 1px 1px 20px black;
-  border: solid lightblue 1px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 10px;
+   margin: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
 
 .dotted{
   position: relative;
-  bottom: 10px;
+  top: 131px;
   border-style: dotted none none;
   border-width: 5px;
   color: pink;
+}
+
+
+.mb-auto{
+  background-color: #E6DDC6;
+  height: 45px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+nav{
+  float: right;
+  padding-top: 16px;
+}
+
+.nav-link{
+  margin: 20px;
+  color: #865439;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+}
+
+.nav-link:hover{
+  color: #000
+}
+
+.nav-link::before{
+  content: '';
+  display: inline-block;
+  height: 5px;
+  width: 0;
+  background-color: #444;
+  position: absolute;
+  bottom: 20px;
+  transition: all ease-in-out 250ms;
+}
+
+.nav-link:hover::before{
+  width: 100%
 }
