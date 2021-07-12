@@ -27,7 +27,7 @@ h1{
 .top-container{
   padding-top: 350px;
   text-align: center;
-  background-image: url('../images/drawingroom3.JPG');
+  background-image: url('../images/drawingroom3.jpg');
   padding-bottom: 220px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,12 +137,20 @@ h1{
 
 .dotted{
   position: relative;
-  top: 230px;
-  border-style: dotted none none;
+  top: 232px;
+  border-style: solid none none;
   border-width: 5px;
-  color: pink;
+  color: black;
 }
 
+.dotted1{
+  position: relative;
+  bottom: 0.2px;
+  width: 100%;
+  border-style: solid none none;
+  border-width: 5px;
+  color: black;
+}
 
 .mb-auto{
   background-color: white;
@@ -163,6 +171,7 @@ h1{
 
 nav{
   float: right;
+  padding-right: 20px;
   padding-top: 28px;
 }
 
