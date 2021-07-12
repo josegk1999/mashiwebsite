@@ -8,7 +8,7 @@ body{
 h1{
   font-family: 'Dancing Script', cursive;
   font-size: 562.5%;
-  color: #5D534A;
+  color: black;
   position: relative;
   bottom: 40px;
 }
@@ -20,14 +20,17 @@ h1{
   width: 10%;
   position: relative;
   bottom: 120px;
+  right: 28px;
 }
 
 
 .top-container{
-  padding-top: 100px;
+  padding-top: 350px;
   text-align: center;
-  background-color: #E6DDC6;
-  padding-bottom: 120px;
+  background-image: url('../images/drawingroom3.jpg');
+  padding-bottom: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Heading-box{
@@ -37,23 +40,6 @@ h1{
 }
 
 
-
-.cloud1{
-  background-color: transparent;
-  position: absolute;
-  left: 0;
-  width: 135px;
-  height: 60px;
-}
-
-.cloud2{
-  position: absolute;
-  right: 70px;
-  top: 30px;
-  width: 135px;
-  height: 60px;
-}
-
 .mashilogo{
   width: 210px;
   height: 210px;
@@ -62,17 +48,21 @@ h1{
 .commenthead{
   font-family: 'Amatic SC', serif;
   font-size: 187.5%;
-  color: #865439;
+  font-weight: bolder;
+  color: black;
   position: relative;
   bottom: 80px;
+  right: 28px;
 }
 
 .two{
   font-family: 'Amatic SC', serif;
   font-size: 187.5%;
-  color: #865439;
+  font-weight: bolder;
+  color: black;
   position: relative;
   bottom: 110px;
+  right: 28px;
 }
 
 .middle-container{
@@ -147,7 +137,7 @@ h1{
 
 .dotted{
   position: relative;
-  top: 131px;
+  top: 230px;
   border-style: dotted none none;
   border-width: 5px;
   color: pink;
@@ -155,16 +145,33 @@ h1{
 
 
 .mb-auto{
-  background-color: #E6DDC6;
-  height: 45px;
+  background-color: white;
+  height: 70px;
   position: fixed;
   width: 100%;
   z-index: 999;
 }
 
+.company_name{
+  font-family: 'Uchen', serif;
+  float: left;
+  color: #865439;
+  margin-left: 20px;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
 nav{
   float: right;
-  padding-top: 16px;
+  padding-top: 28px;
+}
+
+.mashilogo1{
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin-left: 20px;
+  margin-top: 7px;
 }
 
 .nav-link{
