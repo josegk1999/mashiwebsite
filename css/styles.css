@@ -35,8 +35,8 @@ h1{
 .coverimg{
   position: relative;
   margin: 0 auto 0 auto;
-  width: 280px;
-  height: 400px;
+  width: 40%;
+  height: 75%;
   border-color: transparent;
 }
 
@@ -45,7 +45,7 @@ h1{
   padding-top: 30px;
   position: relative;
   bottom: 200px;
-  width: 1000px;
+  width: 46.875%;
   margin: 0 auto 0 auto;
 }
 
