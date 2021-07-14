@@ -1,5 +1,5 @@
 body{
-  background-color: #A19882;
+  background-color: #F4F4F2;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -14,7 +14,7 @@ h1{
 }
 
 .smalldash{
-  background-color: #F9F3F3;
+  background-color: #F4F4F2;
   border-style: dashed none none;
   border-width: 4px;
   width: 10%;
@@ -30,6 +30,23 @@ h1{
   padding-bottom: 220px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.simptry{
+  width: 180px;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.simptry1{
+  width: 180px;
+  height: 200px;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
 }
 
 .coverimg{
@@ -73,7 +90,7 @@ h1{
 }
 
 .middle-container{
-  background-color: #A19882;
+  background-color: #F4F4F2;
   text-align: center;
 }
 
