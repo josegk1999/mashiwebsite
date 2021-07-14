@@ -40,14 +40,6 @@ h1{
   left: 50px;
 }
 
-.simptry1{
-  width: 180px;
-  height: 200px;
-  transform: rotate(180deg);
-  position: absolute;
-  bottom: 10px;
-  right: 50px;
-}
 
 .coverimg{
   position: relative;
