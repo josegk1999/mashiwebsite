@@ -153,28 +153,18 @@ h1{
 
 
 
-.mb-auto{
-  background-color: #F4F4F2;
-  height: 70px;
-  position: fixed;
-  width: 100%;
-  z-index: 999;
-}
+
 
 .company_name{
   font-family: 'Uchen', serif;
   float: left;
-  color: #865439;
+  color: darkslategrey;
   margin-left: 20px;
   font-size: 30px;
   padding-top: 10px;
 }
 
-nav{
-  float: right;
-  padding-right: 20px;
-  padding-top: 28px;
-}
+
 
 .mashilogo1{
   float: left;
@@ -184,33 +174,6 @@ nav{
   margin-top: 7px;
 }
 
-.nav-link{
-  margin: 20px;
-  color: #865439;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  position: relative;
-}
-
-.nav-link:hover{
-  color: #000
-}
-
-.nav-link::before{
-  content: '';
-  display: inline-block;
-  height: 5px;
-  width: 0;
-  background-color: #444;
-  position: absolute;
-  bottom: 20px;
-  transition: all ease-in-out 250ms;
-}
-
-.nav-link:hover::before{
-  width: 100%
-}
 
 .fa-linkedin {
   width: 20px;
