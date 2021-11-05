@@ -5,42 +5,14 @@ body{
   margin-top: 0;
 }
 
-h1{
-  font-family: 'Dancing Script', cursive;
-  font-size: 562.5%;
-  color: black;
-  position: relative;
-  bottom: 40px;
-}
-
-.smalldash{
-  background-color: #F4F4F2;
-  border-style: dashed none none;
-  border-width: 4px;
-  width: 10%;
-  position: relative;
-  bottom: 40px;
-  left: 330px;
-}
-
-
 .container-fluid{
   padding-top: 300px;
   text-align: center;
   background-color: #F4F4F2;
-  padding-bottom: 220px;
+  padding-bottom: 2px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.simptry{
-  width: 180px;
-  height: 200px;
-  position: absolute;
-  top: 100px;
-  left: 50px;
-}
-
 
 .coverimg{
   position: relative;
@@ -70,6 +42,7 @@ h1{
   font-weight: bolder;
   color: black;
   position: relative;
+  top: 7px;
 }
 
 .two{
@@ -78,36 +51,23 @@ h1{
   font-weight: bolder;
   color: black;
   position: relative;
-  bottom: 30px;
+  bottom: 18px;
 }
 
 .middle-container{
-  background-color: #F4F4F2;
+  background-color: black;
   text-align: center;
+  padding-bottom: 2px;
 }
 
-.skill-row{
-  position: relative;
-  width: 1000px;
-  margin: 100px auto 300px auto;
-  text-align: left;
-}
 
-.skillimg{
-  width: 40%;
-  float: right;
-  margin-left: 10px;
-}
 
-.skillimg2{
-  width: 40%;
-  float: left;
-  margin-right: 30px;
-}
+
 
 .bottom-container{
-  background-color: #F2EDD7;
+  background-color: #F4F4F2;
   text-align:center;
+  padding-bottom: 2px;
 }
 
 .btn {
@@ -185,4 +145,15 @@ h1{
 nav{
   padding: 0% 10% 0% 2%;
   font-size: 18px;
+}
+
+.pfont{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3rem;
+  line-height: 3;
+}
+
+.paddingoverall{
+  padding: 0px 20px;
 }
