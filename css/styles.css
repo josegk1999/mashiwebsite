@@ -20,11 +20,12 @@ h1{
   width: 10%;
   position: relative;
   bottom: 40px;
+  left: 330px;
 }
 
 
-.top-container{
-  padding-top: 350px;
+.container-fluid{
+  padding-top: 300px;
   text-align: center;
   background-color: #F4F4F2;
   padding-bottom: 220px;
@@ -51,7 +52,6 @@ h1{
 
 .Heading-box{
   background-color: #F4F4F2;
-  padding-top: 30px;
   position: relative;
   bottom: 200px;
   width: 750px;
@@ -180,4 +180,9 @@ h1{
   height: 20px;
   background: #007bb5;
   color: white;
+}
+
+nav{
+  padding: 0% 10% 0% 2%;
+  font-size: 18px;
 }
